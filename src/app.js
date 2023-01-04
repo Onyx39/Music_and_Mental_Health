@@ -11,7 +11,7 @@ app.use(express.static('public'))
 const server = http.createServer(app);
 
 // On allume le serveur au port 3000
-server.listen(3010);
+server.listen(3000);
 
 // Quand le serveur est allumé on le log
 server.on('listening', function () {
