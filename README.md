@@ -3,10 +3,10 @@ Mini projet de visualisation de données en JS.
 
 ## Voir la visualisation
 Pour voir la visualisation : 
-<ul>
-<ol>Entrer dans le dossier <i>src</i></ol>
-<ol>Run `npm install`</ol>
-<ol>Run `npm start`</ol>
+<ol>
+<li>Entrer dans le dossier <i>src</i></li>
+<li>Run `npm install`</li>
+<li>Run `npm start`</li>
 <ol>Accéder à <i>localhost:3000/index32.html</i>depuis un navigateur</li></ol>
 
 ## Objectif du projet
