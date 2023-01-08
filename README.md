@@ -7,13 +7,15 @@ Pour voir la visualisation :
 <li>Entrer dans le dossier <i>src</i></li>
 <li>Run `npm install`</li>
 <li>Run `npm start`</li>
-<ol>Accéder à <i>localhost:3000/index32.html</i>depuis un navigateur</li></ol>
+<li>Accéder à <i>localhost:3000/index32.html</i> depuis un navigateur</li>
+</ol>
 
-## Objectif du projet
+## Objectif du projetgit a
 Le but de ce projet était d'analyser des données relative à la musique et à la santé mentale en utilisant D3.js. Nous avons, au travers de notre étude, essayé de déterminer deux choses. 
 <ol>
 <li>La première : savoir si le temps d'écoute de musique influence la santé mentale</li>
 <li>La seconde : savoir si la pratique de la musique influence la santé mentale</li>
+<br><br>
 </ol>
 Nous nous sommes donc appuyé sur le modèle HTML contenant 6 graphiques. Sur la première ligne, se trouvent des graphique relatifs au 1er objectif, et dans la deuxième des graphiques relatifs au second. En ce qui concerne la pratique de musique, nous avions deux indicateurs dans les données ('Composer' et 'Instrumentalist'). Nous avons choisi de les prendre en compte tous les deux car ils sont révalteurs d'une pratique de la musique. Chaque ligne correspond à un indicateur de santé mentale. Sur les 4 à notre disposition, on avons retenu l'anxiété, la dépression et l'insomnie, car, les TOC étant plus rares, nous pensions obetnir des résultats moins probant.
 
