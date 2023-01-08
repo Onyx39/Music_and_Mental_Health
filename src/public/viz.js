@@ -12,22 +12,6 @@ function reset() {
 }
 
 /**
- * Permet de montrer les % des tranches du pie chart
- * @param chart Le pie chart sur quoi faire la modification
- */
-// const montrerPourcentagesPieChart = (chart) => {
-//   chart.selectAll("text.pie-slice").text(function (d) {
-//     if (((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100 !== 0) {
-//       return (
-//         dc.utils.printSingleValue(
-//           Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
-//         ) + "%"
-//       );
-//     }
-//   });
-// };
-
-/**
  * La fonction pour créer la visualisation
  */
 async function createDataViz() {
@@ -125,8 +109,8 @@ async function createDataViz() {
     .dimension(linechartanxietyDimension)
     .group(linechartanxietyGroup)
     .brushOn(false)
-    .yAxisLabel("Mean of anxiety")
-    .xAxisLabel("Hours per day")
+    .yAxisLabel("Anxiété (note moy.)")
+    .xAxisLabel("Temps d'écoute en heure")
     .on("renderlet", function (chart) {
       chart.selectAll("rect").on("click", function (d) {
         console.log("click!", d);
@@ -165,8 +149,8 @@ async function createDataViz() {
     .dimension(linechartdepressionDimension)
     .group(linechartdepressionGroup)
     .brushOn(false)
-    .yAxisLabel("Mean of depression")
-    .xAxisLabel("Hours per day")
+    .yAxisLabel("Dépression (note moy.)")
+    .xAxisLabel("Temps d'écoute en heure")
     .on("renderlet", function (chart) {
       chart.selectAll("rect").on("click", function (d) {
         console.log("click!", d);
@@ -203,8 +187,8 @@ async function createDataViz() {
     .dimension(linechartinsomniaDimension)
     .group(linechartinsomniaGroup)
     .brushOn(false)
-    .yAxisLabel("Mean of insomnia")
-    .xAxisLabel("Hours per day")
+    .yAxisLabel("Insomnie (note moy.)")
+    .xAxisLabel("Temps d'écoute en heure")
     .on("renderlet", function (chart) {
       chart.selectAll("rect").on("click", function (d) {
         console.log("click!", d);
@@ -344,7 +328,7 @@ async function createDataViz() {
   // On crée le graphique avec le groupName
   new dc.BarChart("#chart5", groupName)
     .xAxisLabel("Type de personne")
-    .yAxisLabel("Depression")
+    .yAxisLabel("Dépression (note moy.)")
     .x(d3.scaleBand())
     .xUnits(dc.units.ordinal)
     .dimension(depressionDimension) // On ajoute la dimension
@@ -380,7 +364,7 @@ async function createDataViz() {
   // On crée le graphique avec le groupName
   new dc.BarChart("#chart4", groupName)
     .xAxisLabel("Type de personne")
-    .yAxisLabel("Anxiety")
+    .yAxisLabel("Anxiété (note moy.)")
     .x(d3.scaleBand())
     .xUnits(dc.units.ordinal)
     .dimension(anxietyDimension) // On ajoute la dimension
@@ -416,7 +400,7 @@ async function createDataViz() {
   // On crée le graphique avec le groupName
   new dc.BarChart("#chart6", groupName)
     .xAxisLabel("Type de personne")
-    .yAxisLabel("Insomnia")
+    .yAxisLabel("Insomnie (note moy.)")
     .x(d3.scaleBand())
     .xUnits(dc.units.ordinal)
     .dimension(insomniaDimension) // On ajoute la dimension
