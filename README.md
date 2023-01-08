@@ -10,7 +10,7 @@ Pour voir la visualisation :
 <li>Accéder à <i>localhost:3000/index32.html</i> depuis un navigateur</li>
 </ol>
 
-## Objectif du projetgit a
+## Objectif du projet
 Le but de ce projet était d'analyser des données relative à la musique et à la santé mentale en utilisant D3.js. Nous avons, au travers de notre étude, essayé de déterminer deux choses. 
 <ol>
 <li>La première : savoir si le temps d'écoute de musique influence la santé mentale</li>
