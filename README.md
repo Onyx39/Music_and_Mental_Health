@@ -1,6 +1,8 @@
 # Music_and_Mental_Health
 Mini projet de visualisation de données en JS.
+
 Valentin Richard
+
 Emma ORSET
 
 ## Voir la visualisation
@@ -24,8 +26,10 @@ Nous nous sommes donc appuyés sur le modèle HTML contenant 6 graphiques. Sur l
 
 ## Résultat
 Nous avons réussi à afficher les 6 graphiques dans la page <i>index32.html</i>. Cela n'a pas été facile car nous ne connaissions pas d3.js, et il nous aura fallu de l'aide pour comprendre comment les réaliser. Par construction, notre dashboard n'est pas interactif, ce qui peut paraître regrettable.
+
 Nous avons effectué ce travail sur une seule séance de TP, dans laquelle nous avons dû à la fois prendre en main D3.js, comprendre les données et les exploiter. Même si nous avons manqué de temps, nous sommes contents d'avoir réussi à faire quelque chose, même si ce n'est pas interactif.
 
 ## Analyse des graphiques
-Nous partions dans ce projet en pensant que l'écoute ou la pratique de la musique auraient un impact positif sur la santé mentale des personnes. Il semble que nous nous soyions trompés. En effet la tendance inverse semble se dessiner : plus une personne est familière avec la musique (que ce soit par l'écoute ou la pratique) moins elle semble en bonne santé mentale. Cette tendance n'est pas, il est vrai, extrêmement claire, mais elle apparait dans plusieurs graphiques. Un plus grand dataset aurait peut-être permis de lisser certains comportements hératiques, notamment dans les linecharts.<br>
+Nous partions dans ce projet en pensant que l'écoute ou la pratique de la musique auraient un impact positif sur la santé mentale des personnes. Il semble que nous nous soyions trompés. En effet la tendance inverse semble se dessiner : plus une personne est familière avec la musique (que ce soit par l'écoute ou la pratique) moins elle semble en bonne santé mentale. Cette tendance n'est pas, il est vrai, extrêmement claire, mais elle apparait dans plusieurs graphiques. Un plus grand dataset aurait peut-être permis de lisser certains comportements hératiques, notamment dans les linecharts.
+
 Mais nous avions peut-être pris le problème à l'envers, et considéré la cause comme la conséquence. Il se pourrait que ce soit plutôt les personnes avec une santé mentale instable qui se tournent vers la musique pour essayer d'aller mieux.
